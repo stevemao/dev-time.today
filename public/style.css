@@ -1,0 +1,25 @@
+body {
+	transition-duration: 1s;
+}
+
+.time-05, .time-06, .time-07, .time-08, .time-09, .time-10, .time-11, .time-12, .time-13, .time-14, .time-15, .time-16 {
+	background: #27D8E8;
+}
+
+.time-17, .time-18, .time-19, .time-20, .time-21, .time-22, .time-23, .time-0, .time-01, .time-02, .time-03, .time-04 {
+	background: #234052;
+}
+
+#avatar {
+	width: 40px;
+	height: 40px;
+}
+
+.loader {
+	position: absolute;
+	width: 212.5px;
+	height: 212.5px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}

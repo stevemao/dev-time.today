@@ -1,0 +1,27 @@
+{
+  "name": "dev-time.today",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Website of dev-time",
+  "license": "MIT",
+  "repository": "stevemao/dev-time.today",
+  "author": {
+    "name": "Steve Mao",
+    "email": "maochenyan@gmail.com",
+    "url": "github.com/stevemao"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "start": "node index"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "dev-time": "^1.0.1",
+    "express": "^4.13.4",
+    "moment-timezone": "^0.5.3"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "xo": "^0.18.1"
+  }
+}
